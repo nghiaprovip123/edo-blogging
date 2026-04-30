@@ -3,12 +3,10 @@ import InsightRoll from "@/src/components/About/InsightRoll";
 
 const insights = [
     "20+ Projects Completed",
-    "3+ Years of Freelancing",
+    "2+ Years of Business Analyst",
+    "1 Year of System Administrator",
     "99% Client Satisfaction",
-    "20K+ Subscribers",
-    "Authored In-Depth Course on Educative",
-    "Contributed as a Technical Course Reviewer 📝",
-    "Recipient of the Hackernoon Noonies Award 🏆",
+    "3 Production-ready Products"
   ];
 
 export default function AboutLayout({ children }) {
