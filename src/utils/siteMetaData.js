@@ -1,6 +1,6 @@
 // please update required information
 const siteMetadata = {
-    title: 'Edogawa Tr Blog',
+    title: 'the-blue-whale blog',
     author: 'Edogawa Tr',
     headerTitle: 'Next.js Blog',
     description: 'A blog created with Next.js, Tailwind.css and contentlayer.',
