@@ -23,5 +23,5 @@ const FeaturedPosts = ({ blogs }) => {
     </div>
   </section>;
 };
-
+  
 export default FeaturedPosts;
