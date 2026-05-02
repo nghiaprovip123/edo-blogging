@@ -12,13 +12,13 @@ const BlogLayoutOne = ({ blog }) => {
             bg-gradient-to-b from-transparent from-0% to-dark/90 rounded-xl z-10
             "
       />
-      <Image
-        src={blog.image.src}
+<Image
+        src={blog.image?.src || "/placeholder-image.jpg"}
         placeholder="blur"
-        blurDataURL={blog.image.blurDataURL}
-        alt={blog.title}
-        width={blog.image.width}
-        height={blog.image.height}
+        blurDataURL={blog.image?.blurDataURL}
+        alt={blog.title || "Blog image"}
+        width={blog.image?.width || 800}
+        height={blog.image?.height || 600}
         className="w-full h-full object-center object-cover rounded-xl group-hover:scale-105 transition-all ease duration-300"
         sizes="(max-width: 1180px) 100vw, 50vw"
       />
